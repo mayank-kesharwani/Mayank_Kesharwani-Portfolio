@@ -61,7 +61,29 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+.ftco-footer-social li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.ftco-footer-social li a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.ftco-footer-social li a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
